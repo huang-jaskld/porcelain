@@ -1,0 +1,165 @@
+#make {
+    height: 100vh;
+    background-image: url("../../assets/image/make-right.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#make .make-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#make .make-directory {
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    background-image: url("../../assets/image/make-left.jpg");
+    background-size: 100% 100%;
+    background-color: #9ebfc1;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+#make .make-directory-title {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#make .make-directory-item {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+    animation: orderMove 1s;
+}
+
+#make .make-directory-item-chosed {
+    font-weight: bolder;
+}
+
+#make .make-directory-order {
+    width: 35px;
+    height: 40px;
+    background-size: 35px 40px;
+    background-image: url("https://www.hebeimuseum.org.cn/statics/images/index/main3/main3_tab.png");
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#make .make-directory-name {
+    font-size: 20px;
+    padding-left: 5%;
+    cursor: pointer;
+    color: #387173;
+}
+
+#make .make-directory-name:hover {
+    font-weight: bolder;
+}
+
+#make .make-right {
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 35px;
+    position: relative;
+}
+
+#make .make-right-top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    margin: 83px 0 31px 0;
+}
+
+#make .make-right-bottom {
+    height: 100%;
+    width: 100%;
+}
+
+#make .angle1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#make .angle2 {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 10px;
+    top: 0;
+}
+
+#make .angle3 {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: 0;
+}
+
+#make .angle4 {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 10px;
+    bottom: 0;
+}
+
+#make .make-imgs-container {
+    position: relative;
+    width: 450px;
+    height: 428px;
+}
+
+#make .make-img-item {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#make .make-img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    transition: 1s;
+}
+
+#make .make-introduce-container {
+    position: relative;
+    width: 300px;
+    height: 100%;
+}
+
+#make .make-introduce-item {
+
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    transition: 1s;
+}
+
+#make .make-introduce-title {
+    font-size: 26px;
+}
+
+@keyframes orderMove {
+    from {
+        padding: 50px 0;
+    }
+
+    to{
+        padding: 6px 0;
+    }
+}

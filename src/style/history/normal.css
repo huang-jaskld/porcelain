@@ -1,0 +1,244 @@
+#history {
+    background:linear-gradient(rgba(180, 180, 180, 0.712), rgba(180, 180, 180, 0.712)), url("../../assets/image/history_bcg.jpg");
+    min-height: 100vh;
+}
+
+#history .history-content {
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background:linear-gradient(rgba(255, 255, 255, 0.258), rgba(255, 255, 255, 0.258)),url("http://www.dha.ac.cn/index/images/cont6.jpg");
+}
+
+#history .scroll-container {
+    opacity: 0;
+}
+
+#history .history-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#history .history-item-container:nth-child(2n) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* 高度  */
+#history .history-item-container {
+    /* min-height: 90vh; */
+    height: 550px;
+}
+
+#history .history-item-entity {
+    width: 30%;
+    height: 100vh;
+    position: relative;
+}
+
+#history .history-item-entity-one {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+
+#history .history-item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#history .history-item-title-decoration-one {
+    width: 112px;
+}
+
+#history .history-item-title-decoration-two {
+    width: 112px;
+    transform: rotate(190deg);
+}
+
+#history .history-item-title-detail{
+    font-size: 22px;
+    color: #2f5597;
+    font-weight: 600;
+}
+
+#history .history-item-right {
+    width: 70%;
+    position: relative;
+}
+
+#history .history-item-introduce {
+    padding: 50px 30px;
+    font-size: 22px;
+    text-indent: 2em;
+    font-family: Simsun;
+    color: #8b8383;
+}
+
+#history .second-img {
+  position: absolute;
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+  z-index: -999;
+}
+
+#history .cloud-container:nth-child(1) .cloud {
+  width: 500px;
+  height: 200px;
+}
+
+#history .cloud-container:nth-child(2) .cloud {
+  width: 550px;
+  height: 200px;
+}
+
+#history .cloud-container:nth-child(3) .cloud {
+  width: 700px;
+  height: 200px;
+}
+
+/* 高度 */
+#history .history-two-item-container {
+    /* min-height: 90vh; */
+    /* height: 550px; */
+}
+
+#history .history-two-item-top {
+    display: flex;
+}
+
+#history .history-two-item-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#history .history-two-item-bottom-container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#history .history-two-item-bottom-container:nth-child(1):hover .pop-up {
+    top: 0;
+
+}
+
+#history .history-two-item-bottom-container:nth-child(2):hover .pop-up {
+    top: 0;
+}
+
+#history .history-two-item-bottom-container:nth-child(3):hover .pop-up {
+    top: 0;
+}
+
+#history .pop-up {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f384;
+    transition: 0.5s ease-in;
+    padding: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#history .history-three-item-container {
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#history .history-three-item-right-top {
+    display: flex;
+}
+
+#history .history-three-item-right-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#history .history-two-item-bottom-img {
+    height: 400px;
+
+}
+
+
+.scrolled {
+  transition: 1s ease-in;
+  opacity: 1 !important;
+}
+
+.scrolled .fade-in {
+    animation: fade-in 1s ease-in-out both;
+  }
+  
+  .scrolled .fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  
+  .scrolled .slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  
+  .scrolled .slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+  
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0,-50%);
+      
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0,-50%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,27 @@
+@import url(./public/index.css);
+@import url(./home/index.css);
+@import url(./history/index.css);
+@import url(./notFound/index.css);
+@import url(./pattern/index.css);
+@import url(./worth/index.css);
+@import url(./make/index.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    touch-action: pan-y; 
+    font-family: FangSong;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --header-height:35px
+}

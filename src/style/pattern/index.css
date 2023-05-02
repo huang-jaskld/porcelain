@@ -1,0 +1,115 @@
+#pattern {
+    min-height: 100vh;
+    /* background-image: url("../../assets/image/pattern-bcg.jpg"); */
+    background: linear-gradient(rgba(255, 255, 255, 0.688), rgba(255, 255, 255, 0.688)),url("../../assets/image/pattern-bcg.jpg");
+    background-repeat: repeat;
+    background-size: 50% 100%;
+
+}
+
+#pattern .pattern-container {
+    background-image: url("../../assets/image/pattern-center.jpg");
+    /* background-size: 100% 100%; */
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    /* padding: 50px 0; */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 10px #fff; 
+}
+
+#pattern .pattern-left {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: -200px;
+    /* background-image:url("../../assets/image/pattern-left-bcg.png") ; */
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#pattern .pattern-left-item {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform-origin: 200px 200px;
+    transition: 1s;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#pattern .pattern-left-item--chosed {
+    width: 150px !important;
+    height: 150px !important;
+    border-top: 2.5px solid rgb(235, 165, 74);
+    border-right: 2px solid rgb(235, 165, 74);
+    border-bottom: 1.5px solid rgb(235, 165, 74);
+}
+
+#pattern .pattern-left-item-img {
+    height: 100%;
+    width: 100%;
+}
+
+#pattern .pattern-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pattern .pattern-right-entity {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#pattern .pattern-right-entity-img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    margin-left: 20px;
+    transition: 2s;
+}
+
+#pattern .pattern-right-words {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    padding: 0 20px 0 0;
+}
+
+#pattern .pattern-right-title {
+    font-size: 30px;
+    position: relative;
+    width: 100%;
+    height: 35px;
+}
+
+#pattern .pattern-right-title-item {
+    position: absolute;
+    opacity: 0;
+    transition: 2s;
+}
+
+#pattern .pattern-right-introduce {
+    font-size: 20px;
+    transition: all ease 1s;
+}
+
+#pattern .pattern-right-introduce {
+    position: relative;
+    width: 100%;
+    height: 135px;
+}
+
+#pattern .pattern-right-introduce-item {
+    position: absolute;
+    opacity: 0;
+    transition: 2s;
+}

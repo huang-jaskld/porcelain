@@ -1,0 +1,37 @@
+#worth {
+    height: 100vh;
+    /* background-image: url("https://www.hebeimuseum.org.cn/statics/images/index/main5/main5.jpg"); */
+    background-image: url("../../assets/image/worth-bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    overflow: scroll;
+    color:#4f4c4c;
+}
+
+#worth .worth-innercontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#worth .worth-row {
+    display: flex;
+    height: 50vh;
+}
+
+#worth .item {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#worth .item-img {
+    width: 70%;
+    height: 70%;
+}
+
+#worth .introduce {
+    margin-top: 10px;
+    width: 210px;
+}

@@ -1,0 +1,17 @@
+@import url(./swiper.css);
+@import url(./announcement.css);
+@import url(./character.css);
+
+#home {
+    max-width: 100vw;
+    /* background-image: url("../../assets/image/home-bcg.jpg");
+    background-size: 100% 10%; */
+}
+
+#home #home-canvas {
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("../../assets/image/main-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

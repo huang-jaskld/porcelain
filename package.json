@@ -1,0 +1,19 @@
+{
+  "name": "porcelain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.5",
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.150.1"
+  },
+  "keywords": []
+}

@@ -1,0 +1,15 @@
+.hexagon-box1 {
+    overflow: hidden;
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
+
+.hexagon-box2 {
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
+
+.hexagon-box3 {
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
